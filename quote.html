@@ -6,6 +6,78 @@
     <title>Quote Generator</title>
     <link rel="stylesheet" href="./quote.css">
     <script src="./quote.js" defer></script>
+    <style>
+        /* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #6e45e2, #88d3ce);
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.quote-box {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+#quote {
+    font-size: 1.5rem;
+    color: #333;
+    font-style: italic;
+}
+
+.btn {
+    padding: 0.8rem 2rem;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #ff5e57;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 5px 15px rgba(255, 94, 87, 0.4);
+}
+
+.btn:hover {
+    background-color: #ff3d34;
+    transform: translateY(-3px);
+}
+
+.btn:active {
+    background-color: #e53b2f;
+    transform: translateY(0);
+}
+
+    </style>
 
 </head>
 <body>
